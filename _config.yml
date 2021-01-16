@@ -1,1 +1,17 @@
 theme: minima
+
+minima:
+  skin: dark
+  social_links:
+    github: b1scoito
+    telegram: biscoito
+    keybase: biscoito
+    mastodon:
+     - username: biscuit@mstdn.social
+       instance: mstdn.social
+     - username: biscuit@social.privacytools.io
+       instance: social.privacytools.io
+       
+author:
+  name: Rafael F.
+  email: "biscoito@riseup.net"
