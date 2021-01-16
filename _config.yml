@@ -1,14 +1,12 @@
-title: My personal blog
+title: biscuit's personal blog
 description: This is where I'm going to share stuff that happened in my life hopefully.
 author: "Rafael F."
-
 
 theme: minima
 
 # Minima social links
 github_username: b1scoito
-telegram: biscoito
-rss: rss
+telegram_username: biscoito
 
 # Minima: show excerpts in the frontpage
 show_excerpts: true
@@ -19,7 +17,6 @@ minima:
 # Minima: custom header links
 header_pages:
   - _pages/frontpage.md
-  - _pages/about.md
   - _pages/archive.md
 
 include:
