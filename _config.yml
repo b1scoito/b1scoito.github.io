@@ -1,3 +1,19 @@
-# Theme configuration
+title: biscuit's blog
+author: Rafael F.
+email: biscoito@riseup.net
+description: Nothing
+url: "https://blog.biscoit.in/" 
 
-remote_theme: cotes2020/jekyll-theme-chirpy
+# Build settings
+remote_theme: huangyz0918/moving
+plugins:
+  - jekyll-feed
+
+moving:
+  about_you: Someone who likes stuff
+  avatar_url: https://avatars2.githubusercontent.com/u/17802984?s=460&u=6cad436261fda197c3ba71ce6690e1e67c6a3b3b&v=4
+  date_format: "%b %d"
+  back_to: "Index"
+  social_links:
+    rss: RSS
+    github:  b1scoito
