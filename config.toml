@@ -1,0 +1,55 @@
+baseURL = "https://www.biscoito.eu"
+title = "biscoito"
+theme = "hugo-coder"
+languageCode = "en"
+defaultContentLanguage = "en"
+
+[params]
+author = "Rafael F."
+description = "biscoito's personal blog"
+keywords = "blog"
+info = "Security Researcher"
+dateFormat = "January 1, 1970"
+since = 2022
+
+# Specify light/dark colorscheme
+# Supported values:
+# "auto" (use preference set by browser)
+# "dark" (dark background, light foreground)
+# "light" (light background, dark foreground) (default)
+colorScheme = "dark"
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
+
+[[params.social]]
+name = "Github"
+icon = "fa fa-2x fa-github"
+weight = 1
+url = "https://github.com/b1scoito"
+
+[[params.social]]
+name = "Twitter"
+icon = "fa fa-2x fa-twitter"
+weight = 2
+url = "https://twitter.com/biscfelix"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa fa-2x fa-linkedin"
+weight = 3
+url = "https://www.linkedin.com/in/biscoito"
+
+[[params.social]]
+name = "Email"
+icon = "fa fa-2x fa-envelope"
+weight = 4
+url = "mailto:eu@biscoito.eu"
+
+[[languages.en.menu.main]]
+name = "Blog"
+weight = 2
+url = "posts/"
